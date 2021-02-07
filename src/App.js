@@ -1,5 +1,7 @@
 import React from "react";
 import './App.css';
+import Navbar from './Components/Header/Header.jsx';
+import Card from './Components/Project/Project'
 
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
 
   return (
     <div className="App">
+      {/* Nesting the navbar */}
+      <Navbar />
      <div className = "content">
        <h1> { title }</h1>
        </div>  
