@@ -1,71 +1,104 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/meredithajones/Employee_Directory?logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/meredithajones/Employee_Directory?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/meredithajones/Employee_Directory)
 
-In the project directory, you can run:
 
-### `npm start`
+![html badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![css badge](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![react badge](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![node.js badge](https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-[Introduction](#Introduction)
 
-### `npm run build`
+-[Technology](#Technologies)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-[Screenshots](#Screenshots)
+   
+-[Usage](#Usage)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-[Credits](#Credits)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-[Contact](#Contact)
 
-### `npm run eject`
+-[License](#License) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [Deployed Link](https://meredithajones.github.io/Employee_Directory/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Introduction
+  
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage 
+In order to run the application, open the server.js file in integrated terminal, run "npm install" to install all dependencies, and then run "npm start" to view the application in development mode on the local server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Screen Shots
+ ## Gif
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ _App Functionality: "Showing data entered in offline mode persisting when the app is brought back online"_
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![“A quick demo of the seach and sort usage of the application"](./public/images/gif/staff_directory.gif)
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies
+<details>
+<summary>Technology used to create application</summary>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+* React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# My_React_Portfolio
+* CSS
+
+* HTML
+
+* NodeJS
+
+* [Random User Generator API](https://randomuser.me/)
+
+* Font Awesome 
+
+	
+
+</details>
+
+
+## Project Challenges
+*   The most challenging component of the project for me was working out the interactions between the many files 
+
+
+## Credits
+
+* [MDN Web Docs String.prototype.localeCompare()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
+* [React Bootstrap Components Docs: Tables](https://react-bootstrap.github.io/components/table/)
+* [React Dev Docs: Create React App, Folder Structure](https://create-react-app.dev/docs/folder-structure/) 
+* [Mdn web docs general research](https://developer.mozilla.org/en-US/)
+* [AskBCS bug fixes]
+
+
+## Author
+ Meredith Jones
+
+## Contact
+ [@MeredithJones](https://github.com/meredithajones)
+
+## License 
+This project is licensed under the terms of the MIT license.
