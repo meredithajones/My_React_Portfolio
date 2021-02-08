@@ -19,7 +19,7 @@ function App() {
      <div className = "content">
        <h1> { title }</h1> </div>
        
-      {/* Setting up router for intro, portfolio, resume & photo */}
+      {/* Setting up router for intro, portfolio, resume, & photo */}
    <Router>
    <>
      <Header />
