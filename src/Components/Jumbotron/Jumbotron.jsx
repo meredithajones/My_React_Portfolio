@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import "./jumbot.css"
 
 
-const Jumbot = (props) => (
+const jumbot = (props) => (
     <Jumbotron className="text-center jumbo">
         <Container>
             <Row>
@@ -27,4 +27,4 @@ const Jumbot = (props) => (
     </Jumbotron>
 );
 
-export default Jumbot;
+export default jumbot;
