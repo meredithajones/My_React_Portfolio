@@ -14,6 +14,9 @@ function App() {
      <div className = "content">
        <h1> { title }</h1>
        </div>  
+      <div className="Card">
+        <Card />
+      </div>
         
       
     </div>
