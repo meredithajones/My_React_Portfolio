@@ -2,12 +2,12 @@ import React from "react";
 import './App.css';
 import Navbar from './Components/Header/Header.jsx';
 import Header from './Components/Header/Header';
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer/Footer";
 import Introduction from './Cards/Introduction';
 import Portfolio from "./Cards/Portfolio";
 import Contact from "./Cards/Contact";
 import Resume from "./Cards/Resume";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
       <Navbar />
      <div className = "content">
        <h1> { title }</h1> </div>
-       
       {/* Setting up router for intro, portfolio, resume, & photo */}
    <Router>
    <>

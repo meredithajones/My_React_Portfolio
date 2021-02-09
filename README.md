@@ -1,5 +1,4 @@
 # Meredith Jones React Portfolio
-
 ***
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -87,7 +86,7 @@ In order to run the application, open the server.js file in integrated terminal,
 
 ## Credits
 
-* [MDN Web Docs String.prototype.localeCompare()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare)
+* [npm docs react-router-dom package](https://www.npmjs.com/package/react-router-dom)
 * [React Bootstrap Components Docs: Tables](https://react-bootstrap.github.io/components/table/)
 * [React Dev Docs: Create React App, Folder Structure](https://create-react-app.dev/docs/folder-structure/) 
 * [React Training–React Router](https://reactrouter.com/web/guides/primary-components)
