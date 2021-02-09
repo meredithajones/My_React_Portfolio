@@ -1,47 +1,28 @@
 import React from "react";
-import './App.css';
-import Navbar from './Components/Header/Header.jsx';
-import Header from './Components/Header/Header';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
-import Introduction from './Cards/Introduction';
-import Portfolio from "./Cards/Portfolio";
-import Contact from "./Cards/Contact";
-import Resume from "./Cards/Resume";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import Project from "./Pages/Projects";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 function App() {
   const title = "Meredith Jones Portfolio";
 
   return (
-    <div className="App">
-      {/* Nesting the navbar */}
+    <Router>
+    <div>
       <Navbar />
-     <div className = "content">
-       <h1> { title }</h1> </div>
-      {/* Setting up router for intro, portfolio, resume, & photo */}
-   <Router>
-   <>
-     <Header />
-     <Switch>
-         <Route exact path="/">
-           <Introduction />
-         </Route>
-         <Route path="/portfolio">
-           <Portfolio />
-           </Route>
-         <Route path="/contact">
-           <Contact />
-         </Route>
-         <Route path="/resume">
-           <Resume />
-         </Route>
-       </Switch>
-     <Footer />
-   </>
-   </Router>
-   </div>
- );
+        <Route exact path="/" component={Project} />
+        <Route exact path="/projects" component={Project} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} /> 
+      <Footer />
+    </div>
+   
+  </Router>
+  
+);
 }
 
 export default App;

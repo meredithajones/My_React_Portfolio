@@ -1,15 +1,12 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
-    return (
-        <footer className="text-white mt-0">
-        <div className="container">
-            <p className="float-right animate-link">
-                <a href="#top" className="text-reset text-decoration-none">Back to top</a>
-            </p>
-        </div>
+  return (
+    <footer className="footer">
+      <span>Portfolio 2020</span>
     </footer>
-    );
+  );
 }
 
 export default Footer;
