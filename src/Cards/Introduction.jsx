@@ -1,10 +1,7 @@
 import React from "react";
 
-const Resume = () => {
-    return (
-        <section id="resume">
-        </section>
-    );
+const AboutMe = () => {
+   
 }
-
-export default Resume;
+ 
+export default AboutMe;
