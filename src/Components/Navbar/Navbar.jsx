@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MyResume from '../Resume/meredith_jones_resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
@@ -41,8 +42,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
+            
             <Link
-              to="/Resume"
+              to="/resume"
               className={window.location.pathname === "/Resume" ? "nav-link active" : "nav-link"}
             >
               Resume

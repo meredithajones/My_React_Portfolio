@@ -14,7 +14,7 @@ function MyResume() {
     <Wrapper>
     <div>
       <Document
-        file="public/Assets/Resume/meredith_jones_resume .pdf"
+        file="src/Components/Resume/meredith_jones_resume.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={numPages} />
