@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Project from "./Pages/Projects";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const title = "Meredith Jones Portfolio";
