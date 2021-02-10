@@ -6,7 +6,7 @@ const Contact  = () => {
 
     return (
         <div>
-            <Hero backgroundImage="">
+            <Hero backgroundImage="public/Assets/Images/background.jpg">
             </Hero>
             <Jumbo
             titleName="text-center"
