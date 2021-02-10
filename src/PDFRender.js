@@ -10,7 +10,7 @@ class PDF extends Component {
       <div className="PDF">
         <PDFViewer
         backend={PDFJSBackend}
-        src='/myPDF.pdf'
+        src='public/Assets/Resume/meredith_jones_resume .pdf'
       />
       </div>
     );
