@@ -41,16 +41,25 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item"> */}
             
-            <Link
+            {/* <Link
               to="/resume"
               className={window.location.pathname === "/Resume" ? "nav-link active" : "nav-link"}
             >
               Resume
-            </Link>
-          </li>
+            </Link> */}
+          {/* </li> */}
           {/* ------ */}
+          
+          <li className="nav-item">
+          <a href={MyResume}
+            target="_blank" rel="noopener noreferrer"
+                      >
+               View My Resume
+                </a>
+          </li>
+        
           <li className="nav-item">
              <a className="nav-link active" target="_blank" rel="noopener noreferrer" href="https://github.com/meredithajones"><FontAwesomeIcon icon={faGithub}/></a>
           </li>
