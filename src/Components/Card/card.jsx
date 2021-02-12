@@ -9,16 +9,15 @@ return(
 <CardGroup>
   <Card>
   
-<a href="https://google.com">  <Card.Img variant="top" src={FitTrack} /> </a>  
+<a href="https://morning-reef-44056.herokuapp.com/?id=6022f139e7cfc80015cd1c9b">  <Card.Img variant="top" src={FitTrack} /> </a>  
     <Card.Body>
       <Card.Title>Fitness Tracker</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
+       An application to track the number and length of workouts for a user.  </Card.Text>
+      <Card.Link href="https://morning-reef-44056.herokuapp.com/?id=6022f139e7cfc80015cd1c9b"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+    <Card.Link class="muted" href="https://github.com/meredithajones/get_fit">Visit the Github repo</Card.Link>
     </Card.Footer>
   </Card>
   <Card>
