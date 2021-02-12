@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import "./style.css";
 
+
 const Navbar = () => {
   return (
 
@@ -68,12 +69,12 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-             <a className="nav-link active" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/meredith-jones-97a12a1b8/"><FontAwesomeIcon icon={faLinkedinIn}/></a> 
+             <a className="nav-link active" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/meredithJones4747/"><FontAwesomeIcon icon={faLinkedinIn}/></a> 
           </li>
 
         </ul>
       </div>
-    </nav>
+      </nav>
   );
 }
 
