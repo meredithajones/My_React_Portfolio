@@ -33,7 +33,7 @@
 
 ## Links
 
-* [Deployed Link](https://meredithajones.github.io/Employee_Directory/)
+* [Deployed Link](https://meredithajones.github.io/My_React_Portfolio/)
 
 ## Introduction
   
@@ -70,8 +70,6 @@ In order to run the application, open the server.js file in integrated terminal,
 * HTML
 
 * NodeJS
-
-* [Random User Generator API](https://randomuser.me/)
 
 * Font Awesome 
 
