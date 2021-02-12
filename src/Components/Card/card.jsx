@@ -1,9 +1,14 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import CardDeck from "react-bootstrap/CardDeck";
 import FitTrack  from "./Images/fitness_tracker.gif";
 import HappyTImg from "./Images/happyTrails.gif";
 import NoteTake from "./Images/note_taker.gif";
+import SnC from "./Images/s_c_1.gif";
+import StaffDir from "./Images/staff_directory.gif";
+import PassGen from "./Images/password_generator.gif";
+
 const Cards  = () => {
 return(
 <CardGroup>
@@ -25,12 +30,11 @@ return(
     <Card.Body>
       <Card.Title>Happy Trails</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
+        My first group project. This application allows users to look up nearby hiking trails filtered by hike length and distance from them.</Card.Text>
+        <Card.Link href="https://wyliedavid1984.github.io/HappyTrails/"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+    <Card.Link href="https://github.com/meredithajones/HappyTrails.git"> Visit the project Github repo.</Card.Link>
     </Card.Footer>
   </Card>
   <Card>
@@ -38,16 +42,28 @@ return(
     <Card.Body>
       <Card.Title>Note Taker</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
+      This application allows users to create, store and delete</Card.Text>
+      <Card.Link href="https://boiling-citadel-67370.herokuapp.com/"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+    <Card.Link href="https://github.com/meredithajones/note_taking_app"> Visit the project Github repo.</Card.Link>
     </Card.Footer>
   </Card>
-</CardGroup>
+
+  
+<Card>
+    <Card.Img variant="top" src={SnC} />
+    <Card.Body>
+      <Card.Title>Shop and Chef</Card.Title>
+      <Card.Text>
+      My second group project. This app allows users to create shopping lists with items that they add, or import from recipes found through the app.</Card.Text>
+      <Card.Link href="https://shop-n-chef.herokuapp.com/"> Check out the live application here.</Card.Link>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Link href="https://github.com/meredithajones/shop_n_chef#links"> Visit the project Github repo.</Card.Link>
+    </Card.Footer>
+  </Card>
+  </CardGroup>
 )
 };
 
