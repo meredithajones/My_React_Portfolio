@@ -34,7 +34,7 @@ return(
         <Card.Link href="https://wyliedavid1984.github.io/HappyTrails/"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-    <Card.Link href="https://github.com/meredithajones/HappyTrails.git"> Visit the project Github repo.</Card.Link>
+    <Card.Link href="https://github.com/meredithajones/HappyTrails.git"> Visit the Github repo.</Card.Link>
     </Card.Footer>
   </Card>
   <Card>
@@ -46,7 +46,7 @@ return(
       <Card.Link href="https://boiling-citadel-67370.herokuapp.com/"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-    <Card.Link href="https://github.com/meredithajones/note_taking_app"> Visit the project Github repo.</Card.Link>
+    <Card.Link href="https://github.com/meredithajones/note_taking_app"> Visit the Github repo.</Card.Link>
     </Card.Footer>
   </Card>
 
@@ -60,7 +60,7 @@ return(
       <Card.Link href="https://shop-n-chef.herokuapp.com/"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-    <Card.Link href="https://github.com/meredithajones/shop_n_chef#links"> Visit the project Github repo.</Card.Link>
+    <Card.Link href="https://github.com/meredithajones/shop_n_chef#links"> Visit the Github repo.</Card.Link>
     </Card.Footer>
   </Card>
 
@@ -73,7 +73,7 @@ return(
       <Card.Link href="https://shop-n-chef.herokuapp.com/"> Check out the live application here.</Card.Link>
     </Card.Body>
     <Card.Footer>
-    <Card.Link href="https://cloud.mongodb.com/v2/601864fc46ca5b4c992e2b7e#clusters"> Visit the project Github repo.</Card.Link>
+    <Card.Link href="https://cloud.mongodb.com/v2/601864fc46ca5b4c992e2b7e#clusters"> Visit the Github repo.</Card.Link>
     </Card.Footer>
   </Card>
   
@@ -87,7 +87,7 @@ An application to quickly generate long, complex passwords for a user.</Card.Tex
 <Card.Link href="https://shop-n-chef.herokuapp.com/"> Check out the live application here.</Card.Link>
 </Card.Body>
 <Card.Footer>
-<Card.Link href="https://meredithajones.github.io/password_generator_js/"> Visit the project Github repo.</Card.Link>
+<Card.Link href="https://meredithajones.github.io/password_generator_js/"> Visit the Github repo.</Card.Link>
 </Card.Footer>
 </Card>
 </CardGroup>

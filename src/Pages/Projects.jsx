@@ -19,12 +19,6 @@ const Projects  = () => {
             </Hero>
             <Wrapper>
                 <Card/>
-                {/* <img src={HappyTrails} alt="GIF"/>
-                <img src={FitTrack} alt="GIF"/>
-                <img src={NoteTkr} alt="GIF"/>
-                <img src={PassGen} alt="GIF"/>
-                <img src={ShopChef} alt="GIF"/>
-                <img src={StaffDir} alt="GIF"/> */}
                 
             </Wrapper>
         </div>
