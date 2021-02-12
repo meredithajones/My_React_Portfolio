@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Portfolio 2020</span>
+      <span id= "FtTxt">MJ Portfolio 2021</span>
     </footer>
   );
 }

@@ -63,7 +63,34 @@ return(
     <Card.Link href="https://github.com/meredithajones/shop_n_chef#links"> Visit the project Github repo.</Card.Link>
     </Card.Footer>
   </Card>
-  </CardGroup>
+
+  <Card>
+    <Card.Img variant="top" src={StaffDir} />
+    <Card.Body>
+      <Card.Title>Staff Directory</Card.Title>
+      <Card.Text>
+      A program to let managers and staff easily reference a list of the current employees in an organization. Staff in the database can be searched by tying in a name, and can be sorted by name or city where they live.</Card.Text>
+      <Card.Link href="https://shop-n-chef.herokuapp.com/"> Check out the live application here.</Card.Link>
+    </Card.Body>
+    <Card.Footer>
+    <Card.Link href="https://cloud.mongodb.com/v2/601864fc46ca5b4c992e2b7e#clusters"> Visit the project Github repo.</Card.Link>
+    </Card.Footer>
+  </Card>
+  
+
+<Card>
+<Card.Img variant="top" src={PassGen} />
+<Card.Body>
+  <Card.Title>Password Generator</Card.Title>
+  <Card.Text>
+An application to quickly generate long, complex passwords for a user.</Card.Text>   
+<Card.Link href="https://shop-n-chef.herokuapp.com/"> Check out the live application here.</Card.Link>
+</Card.Body>
+<Card.Footer>
+<Card.Link href="https://meredithajones.github.io/password_generator_js/"> Visit the project Github repo.</Card.Link>
+</Card.Footer>
+</Card>
+</CardGroup>
 )
 };
 
