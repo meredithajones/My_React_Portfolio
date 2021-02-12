@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import MyResume from '../Resume/meredith_jones_resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import "./style.css";
 
 const Navbar = () => {
   return (
-    
+
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
        <h3> Meredith Jones</h3>
@@ -51,11 +52,13 @@ const Navbar = () => {
             </Link> */}
           {/* </li> */}
           {/* ------ */}
-          
-          <li className="nav-item">
+          </ul>
+          </div>
+          <div id="rightSideNav">
+            <ul className="navbar-nav">
+          <li className="nav-item" id="resumeBtn">
           <a href={MyResume}
-            target="_blank" rel="noopener noreferrer"
-                      >
+            target="_blank" rel="noopener noreferrer" >
                View My Resume
                 </a>
           </li>

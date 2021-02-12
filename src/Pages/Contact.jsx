@@ -10,7 +10,7 @@ const Contact  = () => {
             <Jumbo
             titleName="text-center"
             name="Contact Me"
-            message= "Reach Out! Email me at meredithjonesp@gmail.com Phone: 610-213-XXXX"          
+            message= "Reach Out! Email me at meredithjonesp@gmail.com Phone: 610-213-XXXX" 
             button1="Send Email"
             href1="mailto:meredithjonesp@gmail.com"
             hide="hide"
